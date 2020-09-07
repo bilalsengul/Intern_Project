@@ -28,5 +28,5 @@
         cd src/
         python3 ex_json2mask.py
 4. Result:
-      ![img](https://imgur.com/a/XURskq8)
+      ![RESULT](Result.png)
       
