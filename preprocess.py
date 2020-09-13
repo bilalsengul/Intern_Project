@@ -104,10 +104,10 @@ json_path_out = "../data"
 sample_loader = loader(data_path, (200,200), 15) 
 json_loader = jsonloader(json_path, (200,200), 8,json_path_out) 
 
-onehot_encoder = OneHotEncoder(sparse=False)
-integer_encoded = integer_encoded.reshape(len(integer_encoded), 1)
-onehot_encoded = onehot_encoder.fit_transform(integer_encoded)
-print(onehot_encoded)
+#onehot_encoder = OneHotEncoder(sparse=False)
+#integer_encoded = integer_encoded.reshape(len(integer_encoded), 1)
+#onehot_encoded = onehot_encoder.fit_transform(integer_encoded)
+#print(onehot_encoded)
 
 
 sample_iter = iter(sample_loader)
